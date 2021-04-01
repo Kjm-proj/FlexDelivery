@@ -1,0 +1,16 @@
+node_modules
+MANIFEST.MF
+pom.properties
+database.properties
+fileUpload.properties
+*.class
+.class
+/target/
+/target/*
+/target/**
+*/target/*
+*/target/**
+*/target/
+
+
+

@@ -1,0 +1,247 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.form-control {
+    border: none;
+
+}
+.Frame {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.Frame>.frame-container {
+    flex: 1;
+    min-height: 100%;
+}
+.Frame.medium>.frame-container>.frame-wrap, .Frame.small>.frame-container>.frame-wrap {
+    padding: 40px 40px 0;
+}
+.Frame>.frame-container>.frame-wrap {
+    display: flex;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1128px;
+    min-width: 0;
+}
+.Frame> .frame-container> .frame-wrap> .frame-body {
+    flex: 1;
+    min-width: 0;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.Frame.small div.Dialog:not(.alert):not(.confirm):not(.tooltip)>form.dialog .wrap .content .form-group {
+    margin: 0 -16px;
+    padding: 16px;
+}
+
+.Frame.small div.Dialog:not(.alert):not(.confirm):not(.tooltip)>form.dialog .wrap .content .form-group {
+    margin: 0 -16px;
+    padding: 16px;
+}
+
+h5.form-label {
+    margin-top: 20px;
+}
+.frame-wrap {
+    margin: 0 auto;
+    padding: 80px 0 60px;
+    width: 900px;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 80px 0 60px;
+    width: 600px;
+}
+
+
+h3.mt-2.mb-1 {
+    margin-bottom: 8px!important;
+    margin-top: 16px!important;
+}
+
+.card-header h3{
+	color:#ca74ec;
+}
+
+.h3, h3 {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -.4px;
+}
+
+.Frame.small div.Dialog:not(.alert):not(.confirm):not(.tooltip)>form.dialog .wrap .content .form-group {
+    margin: 0 -16px;
+    padding: 16px;
+}
+
+div.Card {
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 16px;
+    box-shadow: 0 5px 22px 4px rgba(236,238,242,.5), 0 8px 16px 0 rgba(236,238,242,.5);
+}
+
+.card-header {
+    position: relative;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+}
+
+
+/*라디오버튼*/
+.form-group h5.form-label+.card-columns, .form-group h5.form-label+.form-control-wrap, .form-group h5.form-label+.inline-values {
+    margin-top: 16px;
+}
+.form-group .form-control-wrap {
+    flex: 1;
+}
+.form-group .card-columns, .form-group .form-control-wrap, .form-group .inline-values {
+    margin-bottom: 16px;
+}
+.form-control.mt-3 {
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.form-group .form-control-wrap .form-control {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.mt-3 {
+    margin-top: 24px!important;
+}
+
+.form-group .form-control-wrap .form-control:only-child {
+    align-items: center;
+    height: 100%;
+}
+
+.radio-button {
+    display: inline-flex;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.radio-button input[type=radio]+.label {
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.radio-button input[type=radio]:checked:before {
+    background-color: #fff;
+    box-shadow: inset 0 0 0 6px #1a7cff;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.radio-button input[type=radio]:before {
+    content: "";
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px #ccc;
+    box-sizing: border-box;
+}
+/*체크박스*/
+p.label {
+    display: inline-block;
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+.radio-button input[type=radio] {
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    outline: none;
+    border: none;
+}
+
+.checkbox-button .label {
+    display: inline-block;
+    font-size: 16px;
+}
+.form-group .form-control-wrap .form-control select {
+    flex: 1;
+    display: flex;
+}
+
+.input-label-container .input-container input {
+    color: #212329;
+    border: 0;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    background: inherit;
+    letter-spacing: -.4pt;
+    box-shadow: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/*셀렉트*/
+select {
+    text-transform: none;
+        min-width: 140px;
+            border: none;
+}
+
+select:not([size]) {
+    font-size: 16px;
+    padding: 0 35px 0 12px;
+    height: 48px;
+    line-height: 48px;
+}
+
+.input-label-container .input-container.left>input {
+    text-align: left;
+}
+
+.form-group .form-control-wrap .form-control>select+select, .Frame.small .form-group .form-control-wrap .form-control>*+* {
+    margin-left: 8px;
+}
+
+.button.medium {
+    flex-shrink: 0;
+        min-width: 157px;
+    max-height: 48px;
+    font-size: 16px;
+    padding: 12px 24px;
+    line-height: 23px;
+}
+
+.button {
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.33;
+    letter-spacing: -.4px;
+    text-align: center;
+    border-radius: 4px;
+    background-color:  #ca74ec;
+    border: 1px solid  #ca74ec;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+form.dialog.on.lg {
+    text-align: justify;
+}
